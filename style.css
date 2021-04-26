@@ -63,12 +63,22 @@ body {
     height: 100vh;
     background-color: midnightblue;
     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.work {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.about h2 {
+.work h2 {
     color: white;
     text-align: center;
 }
@@ -93,11 +103,48 @@ body {
     padding: 5px;
 }
 
+.project-card:hover {
+    box-shadow: 5px 5px 10px grey;
+}
+
 .project-card img{
     width: 100%;
 }
 
 .project-card h3{
     font-size: 1rem;
-    margin: 0;
+    margin: auto 0;
+}
+
+.survey {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: midnightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.survey form {
+    width: 50%;
+    color: white;
+}
+
+.survey input {
+    width: 100%;
+}
+
+#option {
+    width: 4%;
+}
+
+#feedback-input {
+    width: 100%;
+}
+
+.survey button {
+    width: 100%;
+    height: auto;
+    background-color: whitesmoke;
 }
